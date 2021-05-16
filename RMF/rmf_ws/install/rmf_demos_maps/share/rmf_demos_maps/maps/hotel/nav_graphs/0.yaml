@@ -1,0 +1,215 @@
+building_name: hotel
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {door_name: l1_door3}
+    - - 1
+      - 0
+      - {door_name: l1_door3}
+    - - 2
+      - 1
+      - {}
+    - - 1
+      - 2
+      - {}
+    - - 3
+      - 4
+      - {}
+    - - 4
+      - 3
+      - {}
+    - - 5
+      - 6
+      - {}
+    - - 6
+      - 5
+      - {}
+    - - 2
+      - 7
+      - {}
+    - - 7
+      - 2
+      - {}
+    - - 7
+      - 8
+      - {}
+    - - 8
+      - 7
+      - {}
+    - - 8
+      - 9
+      - {}
+    - - 9
+      - 8
+      - {}
+    - - 8
+      - 5
+      - {}
+    - - 5
+      - 8
+      - {}
+    - - 3
+      - 5
+      - {}
+    - - 5
+      - 3
+      - {}
+    - - 10
+      - 0
+      - {}
+    - - 0
+      - 10
+      - {}
+    - - 11
+      - 6
+      - {}
+    - - 6
+      - 11
+      - {}
+    vertices:
+    - - 109.54655000000001
+      - -5.760750000000001
+      - {is_passthrough_point: true, name: ''}
+    - - 109.52505000000002
+      - -13.259250000000002
+      - {is_passthrough_point: true, name: ''}
+    - - 104.23440000000001
+      - -13.574850000000001
+      - {is_passthrough_point: true, name: check_in}
+    - - 66.63289999999999
+      - -11.881300000000001
+      - {is_passthrough_point: true, name: ''}
+    - - 63.575
+      - -11.875
+      - {is_passthrough_point: true, lift: Lift3, lift_cabin: Lift3, name: ''}
+    - - 66.64975
+      - -19.8232
+      - {is_passthrough_point: true, name: ''}
+    - - 48.0077
+      - -19.944200000000002
+      - {is_parking_spot: true, is_passthrough_point: true, name: dining}
+    - - 97.26855
+      - -19.82475
+      - {is_passthrough_point: true, name: ''}
+    - - 87.28680000000001
+      - -19.8378
+      - {is_passthrough_point: true, name: ''}
+    - - 87.30595
+      - -13.83335
+      - {is_holding_point: true, is_parking_spot: true, name: l1_restroom}
+    - - 126.81185
+      - -5.7296000000000005
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: TinyRobot_start,
+        spawn_robot_name: TinyRobot_0, spawn_robot_type: TinyRobot}
+    - - 22.5701
+      - -19.970200000000002
+      - {is_holding_point: true, is_parking_spot: true, name: cafe}
+  L2:
+    lanes:
+    - - 0
+      - 1
+      - {}
+    - - 1
+      - 0
+      - {}
+    - - 1
+      - 2
+      - {}
+    - - 2
+      - 1
+      - {}
+    - - 3
+      - 4
+      - {door_name: closet1_door}
+    - - 4
+      - 3
+      - {door_name: closet1_door}
+    - - 4
+      - 5
+      - {}
+    - - 5
+      - 4
+      - {}
+    - - 6
+      - 7
+      - {door_name: door9}
+    - - 7
+      - 6
+      - {door_name: door9}
+    - - 7
+      - 8
+      - {}
+    - - 8
+      - 7
+      - {}
+    - - 4
+      - 9
+      - {}
+    - - 9
+      - 4
+      - {}
+    - - 5
+      - 0
+      - {}
+    - - 0
+      - 5
+      - {}
+    - - 1
+      - 10
+      - {}
+    - - 10
+      - 1
+      - {}
+    - - 0
+      - 8
+      - {}
+    - - 8
+      - 0
+      - {}
+    - - 7
+      - 11
+      - {}
+    - - 11
+      - 7
+      - {}
+    vertices:
+    - - 66.4517
+      - -8.31925
+      - {is_passthrough_point: true, name: ''}
+    - - 66.4694
+      - -11.86215
+      - {is_passthrough_point: true, name: ''}
+    - - 63.575
+      - -11.875
+      - {is_passthrough_point: true, lift: Lift3, lift_cabin: guest_lift1, name: ''}
+    - - 16.097900000000003
+      - -12.8518
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: closet1,
+        spawn_robot_name: TinyRobot_guest_0, spawn_robot_type: TinyRobot}
+    - - 13.2777
+      - -12.980850000000002
+      - {is_passthrough_point: true, name: guest2}
+    - - 13.325
+      - -8.2798
+      - {is_passthrough_point: true, name: guest1}
+    - - 117.30075000000001
+      - -12.863300000000002
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: closet2,
+        spawn_robot_name: TinyRobot_guest_1, spawn_robot_type: TinyRobot}
+    - - 120.03815
+      - -12.8944
+      - {is_passthrough_point: true, name: guest6}
+    - - 120.05175
+      - -8.3695
+      - {is_passthrough_point: true, name: guest5}
+    - - 13.675250000000002
+      - -28.884750000000004
+      - {is_holding_point: true, is_parking_spot: true, name: guest3}
+    - - 66.48685
+      - -28.959050000000005
+      - {is_holding_point: true, is_parking_spot: true, name: guest4}
+    - - 119.97360000000002
+      - -28.97215
+      - {is_holding_point: true, is_parking_spot: true, name: guest7}

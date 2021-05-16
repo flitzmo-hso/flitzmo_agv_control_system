@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rmf_traffic_msgs/srv/UnregisterQuery.srv
+// generated code does not contain a copyright notice
+
+
+module rmf_traffic_msgs {
+  module srv {
+    struct UnregisterQuery_Request {
+      @verbatim (language="comment", text=
+        " The ID of the query description to unregister")
+      uint64 query_id;
+    };
+    struct UnregisterQuery_Response {
+      @verbatim (language="comment", text=
+        " Confirmation that the query was unregistered")
+      boolean confirmation;
+
+      @verbatim (language="comment", text=
+        " A description of any errors that were encountered, such as the query_id being" "\n"
+        " unknown")
+      string error;
+    };
+  };
+};

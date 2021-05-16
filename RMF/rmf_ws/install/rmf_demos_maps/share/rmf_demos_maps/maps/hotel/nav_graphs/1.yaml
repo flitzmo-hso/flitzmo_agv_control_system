@@ -1,0 +1,235 @@
+building_name: hotel
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {door_name: l1_door10}
+    - - 1
+      - 0
+      - {door_name: l1_door10}
+    - - 2
+      - 3
+      - {}
+    - - 3
+      - 2
+      - {}
+    - - 4
+      - 5
+      - {}
+    - - 5
+      - 4
+      - {}
+    - - 6
+      - 7
+      - {is_bidirectional: false}
+    - - 8
+      - 4
+      - {}
+    - - 4
+      - 8
+      - {}
+    - - 7
+      - 8
+      - {door_name: dining_1, is_bidirectional: false}
+    - - 0
+      - 2
+      - {door_name: l1_door7}
+    - - 2
+      - 0
+      - {door_name: l1_door7}
+    - - 4
+      - 0
+      - {}
+    - - 0
+      - 4
+      - {}
+    - - 8
+      - 9
+      - {door_name: l1_door16, is_bidirectional: false}
+    - - 9
+      - 10
+      - {is_bidirectional: false}
+    - - 10
+      - 11
+      - {door_name: l1_door17, is_bidirectional: false}
+    - - 11
+      - 12
+      - {is_bidirectional: false}
+    - - 12
+      - 13
+      - {is_bidirectional: false}
+    - - 13
+      - 14
+      - {door_name: dining_3, is_bidirectional: false}
+    - - 14
+      - 15
+      - {is_bidirectional: false}
+    - - 15
+      - 6
+      - {is_bidirectional: false}
+    vertices:
+    - - 69.91375000000001
+      - -8.27895
+      - {is_passthrough_point: true, name: ''}
+    - - 69.899
+      - -5.545000000000001
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: DeliveryRobot_start,
+        spawn_robot_name: DeliveryRobot_1, spawn_robot_type: DeliveryRobot}
+    - - 77.46145000000001
+      - -8.17425
+      - {is_passthrough_point: true, name: ''}
+    - - 77.46145000000001
+      - -6.238600000000001
+      - {is_holding_point: true, is_parking_spot: true, name: load1}
+    - - 61.802400000000006
+      - -8.255700000000001
+      - {is_passthrough_point: true, name: ''}
+    - - 61.825
+      - -3.5
+      - {is_passthrough_point: true, lift: Lift1, lift_cabin: Lift1, name: ''}
+    - - 48.0077
+      - -19.944200000000002
+      - {is_parking_spot: true, is_passthrough_point: true, name: dining}
+    - - 49.98305
+      - -14.6159
+      - {is_passthrough_point: true, name: ''}
+    - - 50.042500000000004
+      - -8.324850000000001
+      - {is_passthrough_point: true, name: ''}
+    - - 42.6754
+      - -7.149800000000001
+      - {is_passthrough_point: true, name: kitchen1}
+    - - 33.51825
+      - -7.1201
+      - {is_passthrough_point: true, name: kitchen2}
+    - - 25.918599999999998
+      - -8.23225
+      - {is_passthrough_point: true, name: ''}
+    - - 25.825950000000002
+      - -10.4565
+      - {is_passthrough_point: true, name: ''}
+    - - 32.1281
+      - -10.5492
+      - {is_passthrough_point: true, name: ''}
+    - - 32.11845
+      - -13.5528
+      - {is_passthrough_point: true, name: ''}
+    - - 34.269650000000006
+      - -19.959500000000002
+      - {is_passthrough_point: true, name: dining2}
+  L2:
+    lanes:
+    - - 0
+      - 1
+      - {}
+    - - 1
+      - 0
+      - {}
+    - - 1
+      - 2
+      - {door_name: door4}
+    - - 2
+      - 1
+      - {door_name: door4}
+    - - 2
+      - 3
+      - {}
+    - - 3
+      - 2
+      - {}
+    - - 4
+      - 5
+      - {}
+    - - 5
+      - 4
+      - {}
+    - - 5
+      - 6
+      - {}
+    - - 6
+      - 5
+      - {}
+    - - 0
+      - 7
+      - {}
+    - - 7
+      - 0
+      - {}
+    - - 4
+      - 1
+      - {}
+    - - 1
+      - 4
+      - {}
+    - - 3
+      - 8
+      - {}
+    - - 8
+      - 3
+      - {}
+    - - 3
+      - 9
+      - {}
+    - - 9
+      - 3
+      - {}
+    - - 9
+      - 10
+      - {}
+    - - 10
+      - 9
+      - {}
+    - - 2
+      - 11
+      - {}
+    - - 11
+      - 2
+      - {}
+    - - 11
+      - 12
+      - {}
+    - - 12
+      - 11
+      - {}
+    vertices:
+    - - 61.814400000000006
+      - -5.48435
+      - {is_passthrough_point: true, name: ''}
+    - - 63.325
+      - -5.5
+      - {is_passthrough_point: true, name: ''}
+    - - 63.325
+      - -8.3315
+      - {is_passthrough_point: true, name: ''}
+    - - 66.4517
+      - -8.31925
+      - {is_passthrough_point: true, name: ''}
+    - - 67.33460000000001
+      - -5.49235
+      - {is_passthrough_point: true, name: ''}
+    - - 67.33460000000001
+      - -3.9964500000000003
+      - {is_passthrough_point: true, name: ''}
+    - - 68.76635
+      - -3.9964500000000003
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: cleaning,
+        spawn_robot_name: DeliveryRobot_2, spawn_robot_type: DeliveryRobot}
+    - - 61.825
+      - -3.5
+      - {is_passthrough_point: true, lift: Lift1, lift_cabin: cargo_lift1, name: ''}
+    - - 66.48685
+      - -28.959050000000005
+      - {is_holding_point: true, is_parking_spot: true, name: guest4}
+    - - 120.05175
+      - -8.3695
+      - {is_passthrough_point: true, name: guest5}
+    - - 119.97360000000002
+      - -28.97215
+      - {is_holding_point: true, is_parking_spot: true, name: guest7}
+    - - 13.325
+      - -8.2798
+      - {is_passthrough_point: true, name: guest1}
+    - - 13.675250000000002
+      - -28.884750000000004
+      - {is_holding_point: true, is_parking_spot: true, name: guest3}

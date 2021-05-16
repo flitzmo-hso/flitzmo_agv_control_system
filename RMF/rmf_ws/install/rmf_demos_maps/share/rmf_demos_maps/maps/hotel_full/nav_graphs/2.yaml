@@ -1,0 +1,102 @@
+building_name: hotel_full
+levels:
+  L1:
+    lanes:
+    - - 0
+      - 1
+      - {}
+    - - 1
+      - 0
+      - {}
+    - - 2
+      - 3
+      - {}
+    - - 3
+      - 2
+      - {}
+    - - 3
+      - 4
+      - {}
+    - - 4
+      - 3
+      - {}
+    - - 4
+      - 5
+      - {}
+    - - 5
+      - 4
+      - {}
+    - - 5
+      - 6
+      - {}
+    - - 6
+      - 5
+      - {}
+    - - 6
+      - 7
+      - {}
+    - - 7
+      - 6
+      - {}
+    - - 7
+      - 8
+      - {}
+    - - 8
+      - 7
+      - {}
+    - - 1
+      - 9
+      - {}
+    - - 9
+      - 1
+      - {}
+    - - 9
+      - 2
+      - {}
+    - - 2
+      - 9
+      - {}
+    - - 8
+      - 9
+      - {}
+    - - 9
+      - 8
+      - {}
+    vertices:
+    - - 19.2063
+      - -9.885200000000001
+      - {is_charger: true, is_parking_spot: true, name: bar, spawn_robot_name: HospitalRobot_0,
+        spawn_robot_type: HospitalRobot}
+    - - 15.97815
+      - -9.8707
+      - {name: ''}
+    - - 15.9521
+      - -16.88795
+      - {is_parking_spot: true, name: cafe2}
+    - - 15.967750000000002
+      - -20.11455
+      - {is_parking_spot: true, name: cafe3}
+    - - 15.936300000000001
+      - -22.9582
+      - {is_parking_spot: true, name: cafe4}
+    - - 19.077650000000002
+      - -22.935650000000003
+      - {is_parking_spot: true, name: cafe5}
+    - - 19.0682
+      - -20.08235
+      - {is_parking_spot: true, name: cafe6}
+    - - 19.10735
+      - -16.3355
+      - {is_parking_spot: true, name: cafe7}
+    - - 19.1421
+      - -13.964400000000001
+      - {name: ''}
+    - - 15.927850000000001
+      - -13.953000000000001
+      - {is_parking_spot: true, name: cafe1}
+  L2:
+    lanes: []
+    vertices: []
+  L3:
+    lanes: []
+    vertices: []

@@ -1,0 +1,9 @@
+# Query list of submitted tasks | Get service call
+
+# Identifier for who is requesting the service
+string requester
+
+# Input the generated task ID during submission
+# if empty, provide all Submitted Tasks
+string[] task_id
+
