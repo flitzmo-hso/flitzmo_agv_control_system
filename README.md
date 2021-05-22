@@ -18,7 +18,7 @@ libignition-plugin-dev libignition-common3-dev <br>
 mkdir -p ~/colcon_workspace/srccd ~/colcon_workspace/src <br>
 git clone https://github.com/open-rmf/rmf_traffic_editorcd  <br>
 cd ~/colcon_workspace <br>
-source /opt/ros/eloquent/setup.bash <br>
+source /opt/ros/foxy/setup.bash <br>
 colcon build --packages-select rmf_traffic_editor <br>
 
 *Start Traffic Editor* <br> <br>
@@ -33,7 +33,7 @@ ros2 launch rmf_demos office.launch.xml <br>
 
 ## Start Demo Panel
 Start RMF Demo Map. <br>
-Navigate to http://localhost500.
+Navigate to localhost:5000
 
 ## Autors: 
 - Winter semester 20/21: Patrizia Beck, Evgeniya Puchkova, Aline Schaub, Max Sauer, Christoph Werner
