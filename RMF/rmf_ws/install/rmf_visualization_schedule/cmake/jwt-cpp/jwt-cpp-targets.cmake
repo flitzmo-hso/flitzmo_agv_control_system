@@ -42,7 +42,7 @@ unset(_expectedTargets)
 
 
 # The installation prefix configured by this project.
-set(_IMPORT_PREFIX "/home/aline_test/rmf_ws/install/rmf_visualization_schedule")
+set(_IMPORT_PREFIX "/home/flitzmofinal/rmf_ws/install/rmf_visualization_schedule")
 
 # Create imported target jwt-cpp::jwt-cpp
 add_library(jwt-cpp::jwt-cpp INTERFACE IMPORTED)

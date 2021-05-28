@@ -54,7 +54,7 @@ endif()
 add_library(rmf_building_sim_common::crowd_simulator_common SHARED IMPORTED)
 
 set_target_properties(rmf_building_sim_common::crowd_simulator_common PROPERTIES
-  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;/home/aline_test/rmf_ws/install/menge/include"
+  INTERFACE_INCLUDE_DIRECTORIES "${_IMPORT_PREFIX}/include;/home/flitzmofinal/rmf_ws/install/menge/include"
   INTERFACE_LINK_LIBRARIES "menge::menge;rclcpp::rclcpp"
 )
 

@@ -16,7 +16,7 @@ set(_test_maps_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT test_maps_FIND_QUIETLY)
-  message(STATUS "Found test_maps: 1.2.0 (${test_maps_DIR})")
+  message(STATUS "Found test_maps: 1.3.0 (${test_maps_DIR})")
 endif()
 
 # warn when using a deprecated package

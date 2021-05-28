@@ -101,7 +101,7 @@ levels:
     vertices:
     - - 159.69854730754096
       - -55.561195828696945
-      - {is_charger: false, is_parking_spot: false, is_passthrough_point: false, name: charger_cleanerBotE_0,
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: charger_cleanerBotE_0,
         spawn_robot_name: cleanerBotE_0, spawn_robot_type: CleanerBotE}
     - - 159.69813669817438
       - -53.00137491559658
@@ -114,7 +114,7 @@ levels:
       - {name: ''}
     - - 162.2735607672046
       - -55.57663474088015
-      - {is_charger: false, is_parking_spot: false, is_passthrough_point: false, name: charger_cleanerBotE_1,
+      - {is_charger: true, is_holding_point: true, is_parking_spot: true, name: charger_cleanerBotE_1,
         spawn_robot_name: cleanerBotE_1, spawn_robot_type: CleanerBotE}
     - - 151.95133402275505
       - -55.59921825604176

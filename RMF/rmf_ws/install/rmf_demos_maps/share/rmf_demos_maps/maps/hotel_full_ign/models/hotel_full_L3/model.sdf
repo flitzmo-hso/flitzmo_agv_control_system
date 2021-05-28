@@ -9,6 +9,20 @@
             <uri>model://hotel_full_L3/meshes/floor_1.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/concrete.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_1_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -30,6 +44,20 @@
             <uri>model://hotel_full_L3/meshes/floor_2.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_2_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -51,6 +79,20 @@
             <uri>model://hotel_full_L3/meshes/floor_3.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_3_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -72,6 +114,20 @@
             <uri>model://hotel_full_L3/meshes/floor_4.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_4_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -93,6 +149,20 @@
             <uri>model://hotel_full_L3/meshes/floor_5.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_5_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -114,6 +184,20 @@
             <uri>model://hotel_full_L3/meshes/floor_6.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_6_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -135,6 +219,20 @@
             <uri>model://hotel_full_L3/meshes/floor_7.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_7_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -156,6 +254,20 @@
             <uri>model://hotel_full_L3/meshes/floor_8.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_8_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -177,6 +289,20 @@
             <uri>model://hotel_full_L3/meshes/floor_9.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_9_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -198,6 +324,20 @@
             <uri>model://hotel_full_L3/meshes/floor_10.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_10_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -219,6 +359,20 @@
             <uri>model://hotel_full_L3/meshes/floor_11.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_11_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -240,6 +394,20 @@
             <uri>model://hotel_full_L3/meshes/floor_12.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_12_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -261,6 +429,20 @@
             <uri>model://hotel_full_L3/meshes/floor_13.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_13_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -282,6 +464,20 @@
             <uri>model://hotel_full_L3/meshes/floor_14.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_14_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -303,6 +499,20 @@
             <uri>model://hotel_full_L3/meshes/floor_15.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_15_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -324,6 +534,20 @@
             <uri>model://hotel_full_L3/meshes/floor_16.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_16_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -345,6 +569,20 @@
             <uri>model://hotel_full_L3/meshes/floor_17.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_17_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -366,6 +604,20 @@
             <uri>model://hotel_full_L3/meshes/floor_18.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/concrete.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_18_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -387,6 +639,20 @@
             <uri>model://hotel_full_L3/meshes/floor_19.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_19_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -408,6 +674,20 @@
             <uri>model://hotel_full_L3/meshes/floor_20.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_20_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -429,6 +709,20 @@
             <uri>model://hotel_full_L3/meshes/floor_21.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_21_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -450,6 +744,20 @@
             <uri>model://hotel_full_L3/meshes/floor_22.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_22_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -471,6 +779,20 @@
             <uri>model://hotel_full_L3/meshes/floor_23.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_23_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -492,6 +814,20 @@
             <uri>model://hotel_full_L3/meshes/floor_24.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_24_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -513,6 +849,20 @@
             <uri>model://hotel_full_L3/meshes/floor_25.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_25_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -534,6 +884,20 @@
             <uri>model://hotel_full_L3/meshes/floor_26.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_26_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -555,6 +919,20 @@
             <uri>model://hotel_full_L3/meshes/floor_27.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_27_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -576,6 +954,20 @@
             <uri>model://hotel_full_L3/meshes/floor_28.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_28_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -597,6 +989,20 @@
             <uri>model://hotel_full_L3/meshes/floor_29.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_29_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -618,6 +1024,20 @@
             <uri>model://hotel_full_L3/meshes/floor_30.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_30_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -639,6 +1059,20 @@
             <uri>model://hotel_full_L3/meshes/floor_31.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_31_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -660,6 +1094,20 @@
             <uri>model://hotel_full_L3/meshes/floor_32.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_32_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -681,6 +1129,20 @@
             <uri>model://hotel_full_L3/meshes/floor_33.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_33_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -702,6 +1164,20 @@
             <uri>model://hotel_full_L3/meshes/floor_34.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_34_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -723,6 +1199,20 @@
             <uri>model://hotel_full_L3/meshes/floor_35.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_35_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -744,6 +1234,20 @@
             <uri>model://hotel_full_L3/meshes/floor_36.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_36_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -765,6 +1269,20 @@
             <uri>model://hotel_full_L3/meshes/floor_37.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_37_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -786,6 +1304,20 @@
             <uri>model://hotel_full_L3/meshes/floor_38.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_38_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -807,6 +1339,20 @@
             <uri>model://hotel_full_L3/meshes/floor_39.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_39_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -828,6 +1374,20 @@
             <uri>model://hotel_full_L3/meshes/floor_40.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_40_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -849,6 +1409,20 @@
             <uri>model://hotel_full_L3/meshes/floor_41.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_41_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -870,6 +1444,20 @@
             <uri>model://hotel_full_L3/meshes/floor_42.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_42_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -891,6 +1479,20 @@
             <uri>model://hotel_full_L3/meshes/floor_43.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_43_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -912,6 +1514,20 @@
             <uri>model://hotel_full_L3/meshes/floor_44.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_44_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -933,6 +1549,20 @@
             <uri>model://hotel_full_L3/meshes/floor_45.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_45_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -954,6 +1584,20 @@
             <uri>model://hotel_full_L3/meshes/floor_46.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_46_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -975,6 +1619,20 @@
             <uri>model://hotel_full_L3/meshes/floor_47.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_47_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -996,6 +1654,20 @@
             <uri>model://hotel_full_L3/meshes/floor_48.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/gray_flooring.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_48_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1017,6 +1689,20 @@
             <uri>model://hotel_full_L3/meshes/floor_49.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_49_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1038,6 +1724,20 @@
             <uri>model://hotel_full_L3/meshes/floor_50.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_50_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1059,6 +1759,20 @@
             <uri>model://hotel_full_L3/meshes/floor_51.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_51_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1080,6 +1794,20 @@
             <uri>model://hotel_full_L3/meshes/floor_52.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_52_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1101,6 +1829,20 @@
             <uri>model://hotel_full_L3/meshes/floor_53.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_53_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1122,6 +1864,20 @@
             <uri>model://hotel_full_L3/meshes/floor_54.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_54_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1143,6 +1899,20 @@
             <uri>model://hotel_full_L3/meshes/floor_55.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_55_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1164,6 +1934,20 @@
             <uri>model://hotel_full_L3/meshes/floor_56.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_56_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1185,6 +1969,20 @@
             <uri>model://hotel_full_L3/meshes/floor_57.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_57_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1206,6 +2004,20 @@
             <uri>model://hotel_full_L3/meshes/floor_58.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/concrete.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_58_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1227,6 +2039,20 @@
             <uri>model://hotel_full_L3/meshes/floor_59.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_59_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1248,6 +2074,20 @@
             <uri>model://hotel_full_L3/meshes/floor_60.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_60_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1269,6 +2109,20 @@
             <uri>model://hotel_full_L3/meshes/floor_61.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_61_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1290,6 +2144,20 @@
             <uri>model://hotel_full_L3/meshes/floor_62.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_62_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1311,6 +2179,20 @@
             <uri>model://hotel_full_L3/meshes/floor_63.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_63_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1332,6 +2214,20 @@
             <uri>model://hotel_full_L3/meshes/floor_64.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_64_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1353,6 +2249,20 @@
             <uri>model://hotel_full_L3/meshes/floor_65.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_65_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1374,6 +2284,20 @@
             <uri>model://hotel_full_L3/meshes/floor_66.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_66_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1395,6 +2319,20 @@
             <uri>model://hotel_full_L3/meshes/floor_67.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_67_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1416,6 +2354,20 @@
             <uri>model://hotel_full_L3/meshes/floor_68.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_68_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1437,6 +2389,20 @@
             <uri>model://hotel_full_L3/meshes/floor_69.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_69_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1458,6 +2424,20 @@
             <uri>model://hotel_full_L3/meshes/floor_70.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_70_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1479,6 +2459,20 @@
             <uri>model://hotel_full_L3/meshes/floor_71.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_71_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1500,6 +2494,20 @@
             <uri>model://hotel_full_L3/meshes/floor_72.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_72_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1521,6 +2529,20 @@
             <uri>model://hotel_full_L3/meshes/floor_73.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_73_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1542,6 +2564,20 @@
             <uri>model://hotel_full_L3/meshes/floor_74.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_74_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1563,6 +2599,20 @@
             <uri>model://hotel_full_L3/meshes/floor_75.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_75_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1584,6 +2634,20 @@
             <uri>model://hotel_full_L3/meshes/floor_76.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/blue_linoleum_high_contrast.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>floor_76_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>
@@ -1605,6 +2669,20 @@
             <uri>model://hotel_full_L3/meshes/wall_1.obj</uri>
           </mesh>
         </geometry>
+        <material>
+          <diffuse>1.0 1.0 1.0</diffuse>
+          <specular>0.1 0.1 0.1</specular>
+          <pbr>
+            <metal>
+              <metalness>0.0</metalness>
+              <albedo_map>model://hotel_full_L3/meshes/default.png</albedo_map>
+            </metal>
+          </pbr>
+          <script>
+            <uri>model://hotel_full_L3/meshes/</uri>
+            <name>wall_1_Diffuse</name>
+          </script>
+        </material>
       </visual>
       <collision name="collision">
         <geometry>

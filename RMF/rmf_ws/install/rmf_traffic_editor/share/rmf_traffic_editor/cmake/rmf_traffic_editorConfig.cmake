@@ -16,7 +16,7 @@ set(_rmf_traffic_editor_CONFIG_INCLUDED TRUE)
 
 # output package information
 if(NOT rmf_traffic_editor_FIND_QUIETLY)
-  message(STATUS "Found rmf_traffic_editor: 1.2.0 (${rmf_traffic_editor_DIR})")
+  message(STATUS "Found rmf_traffic_editor: 1.3.0 (${rmf_traffic_editor_DIR})")
 endif()
 
 # warn when using a deprecated package
