@@ -16,7 +16,7 @@ sudo apt install libyaml-cpp-dev qt5-default \  <br>
 libopencv-dev libopencv-videoio-dev \   <br>
 libignition-plugin-dev libignition-common3-dev <br>
 mkdir -p ~/colcon_workspace/srccd ~/colcon_workspace/src <br>
-git clone https://github.com/open-rmf/rmf_traffic_editorcd  <br>
+git clone https://github.com/open-rmf/rmf_traffic_editor  <br>
 cd ~/colcon_workspace <br>
 source /opt/ros/foxy/setup.bash <br>
 colcon build --packages-select rmf_traffic_editor <br>
