@@ -28,6 +28,13 @@ source ~/colcon_workspace/install/setup.bash <br>
 traffic-editor
 
 ## Start RMF Demo Maps
+--------------------------------
+Fast way (then code snippets after 'Fast way' are obsolet):  <br>
+
+1. Terminal öffnen <br>
+2a) bash startAll.sh (Alles direkt starten)  <br>
+2b) bash startPanel.sh (Nur Gui Server starten)  <br>
+----------------------------------
 source /opt/ros/foxy/setup.bash <br>
 source ~/rmf_ws/install/setup.bash <br>
 ros2 launch rmf_demos office.launch.xml <br>
