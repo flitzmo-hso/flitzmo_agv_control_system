@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rmf_traffic_msgs/msg/RequestChanges.msg
+// generated code does not contain a copyright notice
+
+
+module rmf_traffic_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " Query ID to request a full participants list for")
+    struct RequestChanges {
+      uint64 query_id;
+
+      @verbatim (language="comment", text=
+        " Version to request changes from; ignored if full_update is true")
+      uint64 version;
+
+      @verbatim (language="comment", text=
+        " Request a full update rather than from a specific version")
+      @default (value=FALSE)
+      boolean full_update;
+    };
+  };
+};

@@ -1,0 +1,153 @@
+// generated from rosidl_generator_c/resource/idl__functions.c.em
+// with input from rmf_building_map_msgs:msg/GraphEdge.idl
+// generated code does not contain a copyright notice
+#include "rmf_building_map_msgs/msg/detail/graph_edge__functions.h"
+
+#include <assert.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+// Include directives for member types
+// Member `params`
+#include "rmf_building_map_msgs/msg/detail/param__functions.h"
+
+bool
+rmf_building_map_msgs__msg__GraphEdge__init(rmf_building_map_msgs__msg__GraphEdge * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // v1_idx
+  // v2_idx
+  // params
+  if (!rmf_building_map_msgs__msg__Param__Sequence__init(&msg->params, 0)) {
+    rmf_building_map_msgs__msg__GraphEdge__fini(msg);
+    return false;
+  }
+  // edge_type
+  return true;
+}
+
+void
+rmf_building_map_msgs__msg__GraphEdge__fini(rmf_building_map_msgs__msg__GraphEdge * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // v1_idx
+  // v2_idx
+  // params
+  rmf_building_map_msgs__msg__Param__Sequence__fini(&msg->params);
+  // edge_type
+}
+
+rmf_building_map_msgs__msg__GraphEdge *
+rmf_building_map_msgs__msg__GraphEdge__create()
+{
+  rmf_building_map_msgs__msg__GraphEdge * msg = (rmf_building_map_msgs__msg__GraphEdge *)malloc(sizeof(rmf_building_map_msgs__msg__GraphEdge));
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(rmf_building_map_msgs__msg__GraphEdge));
+  bool success = rmf_building_map_msgs__msg__GraphEdge__init(msg);
+  if (!success) {
+    free(msg);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+rmf_building_map_msgs__msg__GraphEdge__destroy(rmf_building_map_msgs__msg__GraphEdge * msg)
+{
+  if (msg) {
+    rmf_building_map_msgs__msg__GraphEdge__fini(msg);
+  }
+  free(msg);
+}
+
+
+bool
+rmf_building_map_msgs__msg__GraphEdge__Sequence__init(rmf_building_map_msgs__msg__GraphEdge__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rmf_building_map_msgs__msg__GraphEdge * data = NULL;
+  if (size) {
+    data = (rmf_building_map_msgs__msg__GraphEdge *)calloc(size, sizeof(rmf_building_map_msgs__msg__GraphEdge));
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = rmf_building_map_msgs__msg__GraphEdge__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        rmf_building_map_msgs__msg__GraphEdge__fini(&data[i - 1]);
+      }
+      free(data);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+rmf_building_map_msgs__msg__GraphEdge__Sequence__fini(rmf_building_map_msgs__msg__GraphEdge__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      rmf_building_map_msgs__msg__GraphEdge__fini(&array->data[i]);
+    }
+    free(array->data);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+rmf_building_map_msgs__msg__GraphEdge__Sequence *
+rmf_building_map_msgs__msg__GraphEdge__Sequence__create(size_t size)
+{
+  rmf_building_map_msgs__msg__GraphEdge__Sequence * array = (rmf_building_map_msgs__msg__GraphEdge__Sequence *)malloc(sizeof(rmf_building_map_msgs__msg__GraphEdge__Sequence));
+  if (!array) {
+    return NULL;
+  }
+  bool success = rmf_building_map_msgs__msg__GraphEdge__Sequence__init(array, size);
+  if (!success) {
+    free(array);
+    return NULL;
+  }
+  return array;
+}
+
+void
+rmf_building_map_msgs__msg__GraphEdge__Sequence__destroy(rmf_building_map_msgs__msg__GraphEdge__Sequence * array)
+{
+  if (array) {
+    rmf_building_map_msgs__msg__GraphEdge__Sequence__fini(array);
+  }
+  free(array);
+}

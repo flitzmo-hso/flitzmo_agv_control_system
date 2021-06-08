@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rmf_task_msgs/srv/GetTaskList.srv
+// generated code does not contain a copyright notice
+
+#include "rmf_task_msgs/msg/TaskSummary.idl"
+
+module rmf_task_msgs {
+  module srv {
+    @verbatim (language="comment", text=
+      " Query list of submitted tasks | Get service call")
+    struct GetTaskList_Request {
+      @verbatim (language="comment", text=
+        " Identifier for who is requesting the service")
+      string requester;
+
+      @verbatim (language="comment", text=
+        " Input the generated task ID during submission" "\n"
+        " if empty, provide all Submitted Tasks")
+      sequence<string> task_id;
+    };
+    struct GetTaskList_Response {
+      boolean success;
+
+      sequence<rmf_task_msgs::msg::TaskSummary> active_tasks;
+
+      sequence<rmf_task_msgs::msg::TaskSummary> terminated_tasks;
+    };
+  };
+};

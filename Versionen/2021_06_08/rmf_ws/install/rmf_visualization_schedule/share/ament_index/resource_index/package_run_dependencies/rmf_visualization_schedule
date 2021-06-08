@@ -1,0 +1,1 @@
+rmf_traffic;rmf_traffic_ros2;rmf_traffic_msgs;rclcpp;libwebsocketpp-dev;geometry_msgs;nav_msgs;visualization_msgs;rmf_visualization_msgs;rmf_building_map_msgs;rosidl_default_generators;builtin_interfaces;eigen;libopencv-dev;ament_lint_auto;ament_lint_common
