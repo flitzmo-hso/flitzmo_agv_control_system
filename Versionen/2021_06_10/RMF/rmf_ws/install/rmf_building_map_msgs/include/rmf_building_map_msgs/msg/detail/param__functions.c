@@ -1,0 +1,163 @@
+// generated from rosidl_generator_c/resource/idl__functions.c.em
+// with input from rmf_building_map_msgs:msg/Param.idl
+// generated code does not contain a copyright notice
+#include "rmf_building_map_msgs/msg/detail/param__functions.h"
+
+#include <assert.h>
+#include <stdbool.h>
+#include <stdlib.h>
+#include <string.h>
+
+
+// Include directives for member types
+// Member `name`
+// Member `value_string`
+#include "rosidl_runtime_c/string_functions.h"
+
+bool
+rmf_building_map_msgs__msg__Param__init(rmf_building_map_msgs__msg__Param * msg)
+{
+  if (!msg) {
+    return false;
+  }
+  // name
+  if (!rosidl_runtime_c__String__init(&msg->name)) {
+    rmf_building_map_msgs__msg__Param__fini(msg);
+    return false;
+  }
+  // type
+  // value_int
+  // value_float
+  // value_string
+  if (!rosidl_runtime_c__String__init(&msg->value_string)) {
+    rmf_building_map_msgs__msg__Param__fini(msg);
+    return false;
+  }
+  // value_bool
+  return true;
+}
+
+void
+rmf_building_map_msgs__msg__Param__fini(rmf_building_map_msgs__msg__Param * msg)
+{
+  if (!msg) {
+    return;
+  }
+  // name
+  rosidl_runtime_c__String__fini(&msg->name);
+  // type
+  // value_int
+  // value_float
+  // value_string
+  rosidl_runtime_c__String__fini(&msg->value_string);
+  // value_bool
+}
+
+rmf_building_map_msgs__msg__Param *
+rmf_building_map_msgs__msg__Param__create()
+{
+  rmf_building_map_msgs__msg__Param * msg = (rmf_building_map_msgs__msg__Param *)malloc(sizeof(rmf_building_map_msgs__msg__Param));
+  if (!msg) {
+    return NULL;
+  }
+  memset(msg, 0, sizeof(rmf_building_map_msgs__msg__Param));
+  bool success = rmf_building_map_msgs__msg__Param__init(msg);
+  if (!success) {
+    free(msg);
+    return NULL;
+  }
+  return msg;
+}
+
+void
+rmf_building_map_msgs__msg__Param__destroy(rmf_building_map_msgs__msg__Param * msg)
+{
+  if (msg) {
+    rmf_building_map_msgs__msg__Param__fini(msg);
+  }
+  free(msg);
+}
+
+
+bool
+rmf_building_map_msgs__msg__Param__Sequence__init(rmf_building_map_msgs__msg__Param__Sequence * array, size_t size)
+{
+  if (!array) {
+    return false;
+  }
+  rmf_building_map_msgs__msg__Param * data = NULL;
+  if (size) {
+    data = (rmf_building_map_msgs__msg__Param *)calloc(size, sizeof(rmf_building_map_msgs__msg__Param));
+    if (!data) {
+      return false;
+    }
+    // initialize all array elements
+    size_t i;
+    for (i = 0; i < size; ++i) {
+      bool success = rmf_building_map_msgs__msg__Param__init(&data[i]);
+      if (!success) {
+        break;
+      }
+    }
+    if (i < size) {
+      // if initialization failed finalize the already initialized array elements
+      for (; i > 0; --i) {
+        rmf_building_map_msgs__msg__Param__fini(&data[i - 1]);
+      }
+      free(data);
+      return false;
+    }
+  }
+  array->data = data;
+  array->size = size;
+  array->capacity = size;
+  return true;
+}
+
+void
+rmf_building_map_msgs__msg__Param__Sequence__fini(rmf_building_map_msgs__msg__Param__Sequence * array)
+{
+  if (!array) {
+    return;
+  }
+  if (array->data) {
+    // ensure that data and capacity values are consistent
+    assert(array->capacity > 0);
+    // finalize all array elements
+    for (size_t i = 0; i < array->capacity; ++i) {
+      rmf_building_map_msgs__msg__Param__fini(&array->data[i]);
+    }
+    free(array->data);
+    array->data = NULL;
+    array->size = 0;
+    array->capacity = 0;
+  } else {
+    // ensure that data, size, and capacity values are consistent
+    assert(0 == array->size);
+    assert(0 == array->capacity);
+  }
+}
+
+rmf_building_map_msgs__msg__Param__Sequence *
+rmf_building_map_msgs__msg__Param__Sequence__create(size_t size)
+{
+  rmf_building_map_msgs__msg__Param__Sequence * array = (rmf_building_map_msgs__msg__Param__Sequence *)malloc(sizeof(rmf_building_map_msgs__msg__Param__Sequence));
+  if (!array) {
+    return NULL;
+  }
+  bool success = rmf_building_map_msgs__msg__Param__Sequence__init(array, size);
+  if (!success) {
+    free(array);
+    return NULL;
+  }
+  return array;
+}
+
+void
+rmf_building_map_msgs__msg__Param__Sequence__destroy(rmf_building_map_msgs__msg__Param__Sequence * array)
+{
+  if (array) {
+    rmf_building_map_msgs__msg__Param__Sequence__fini(array);
+  }
+  free(array);
+}
