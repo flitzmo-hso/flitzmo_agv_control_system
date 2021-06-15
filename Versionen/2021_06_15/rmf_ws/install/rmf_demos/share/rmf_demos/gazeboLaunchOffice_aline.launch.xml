@@ -1,0 +1,19 @@
+<?xml version='1.0' ?>
+
+<launch>
+  <arg name="use_ignition" default="0"/>
+  <arg name="gazebo_version" default="11"/>
+  <arg name="use_sim_time" default="true"/>
+  <arg name="failover_mode" default="false"/>
+
+
+
+
+<include file="$(find-pkg-share rmf_demos)/gazeboLaunchOffice_aline.launch.xml">
+    <arg name="map_name" value="office" />
+    <arg name="use_ignition" value="$(var use_ignition)" />
+    <arg name="gazebo_version" value="$(var gazebo_version)" />
+  </include>
+
+
+</launch>
