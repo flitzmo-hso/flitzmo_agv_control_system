@@ -12,23 +12,24 @@ Academic supervisor:  <a href="https://imla.hs-offenburg.de/personen/prof-dr-ing
 
 *Create workspace* <br> <br>
 ```bash
-sudo apt update <br>
-sudo apt install libyaml-cpp-dev qt5-default \  <br>
-libopencv-dev libopencv-videoio-dev \   <br>
-libignition-plugin-dev libignition-common3-dev <br>
-mkdir -p ~/colcon_workspace/src <br>
-cd ~/colcon_workspace/src <br>
-git clone https://github.com/open-rmf/rmf_traffic_editor  <br>
-cd ~/colcon_workspace <br>
-source /opt/ros/foxy/setup.bash <br>
-colcon build --packages-select rmf_traffic_editor <br>
+sudo apt update
+sudo apt install libyaml-cpp-dev qt5-default \  
+libopencv-dev libopencv-videoio-dev \   
+libignition-plugin-dev libignition-common3-dev 
+mkdir -p ~/colcon_workspace/src 
+cd ~/colcon_workspace/src 
+git clone https://github.com/open-rmf/rmf_traffic_editor 
+cd ~/colcon_workspace 
+source /opt/ros/foxy/setup.bash 
+colcon build --packages-select rmf_traffic_editor 
 
 ```
 
-```bash
+
 *Start Traffic Editor* <br> <br>
-source /opt/ros/foxy/setup.bash <br>
-source ~/colcon_workspace/install/setup.bash <br>
+```bash
+source /opt/ros/foxy/setup.bash 
+source ~/colcon_workspace/install/setup.bash 
 traffic-editor
 
 ```
@@ -43,9 +44,9 @@ Fast way (then code snippets after 'Fast way' are obsolet):  <br>
 ----------------------------------
 
 ```bash
-source /opt/ros/foxy/setup.bash <br>
-source ~/rmf_ws/install/setup.bash <br>
-ros2 launch rmf_demos office.launch.xml <br>
+source /opt/ros/foxy/setup.bash 
+source ~/rmf_ws/install/setup.bash 
+ros2 launch rmf_demos office.launch.xml 
 ```
 
 ## Start Demo Panel
