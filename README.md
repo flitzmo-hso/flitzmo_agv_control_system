@@ -11,6 +11,7 @@ Academic supervisor:  <a href="https://imla.hs-offenburg.de/personen/prof-dr-ing
 ## Traffic Editor
 
 *Create workspace* <br> <br>
+```bash
 sudo apt update <br>
 sudo apt install libyaml-cpp-dev qt5-default \  <br>
 libopencv-dev libopencv-videoio-dev \   <br>
@@ -22,10 +23,15 @@ cd ~/colcon_workspace <br>
 source /opt/ros/foxy/setup.bash <br>
 colcon build --packages-select rmf_traffic_editor <br>
 
+```
+
+```bash
 *Start Traffic Editor* <br> <br>
 source /opt/ros/foxy/setup.bash <br>
 source ~/colcon_workspace/install/setup.bash <br>
 traffic-editor
+
+```
 
 ## Start RMF Demo Maps
 --------------------------------
@@ -35,9 +41,12 @@ Fast way (then code snippets after 'Fast way' are obsolet):  <br>
 2a) bash startAll.sh (Alles direkt starten)  <br>
 2b) bash startPanel.sh (Nur Gui Server starten)  <br>
 ----------------------------------
+
+```bash
 source /opt/ros/foxy/setup.bash <br>
 source ~/rmf_ws/install/setup.bash <br>
 ros2 launch rmf_demos office.launch.xml <br>
+```
 
 ## Start Demo Panel
 Start RMF Demo Map. <br>
