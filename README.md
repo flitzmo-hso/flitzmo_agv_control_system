@@ -6,7 +6,7 @@ Academic supervisor:  <a href="https://imla.hs-offenburg.de/personen/prof-dr-ing
 
 ## Demo
 
-*Gif* 
+![](https://github.com/flitzmo-hso/flitzmo_agv_control_system/blob/main/gif.gif)
 
 ## Traffic Editor
 
